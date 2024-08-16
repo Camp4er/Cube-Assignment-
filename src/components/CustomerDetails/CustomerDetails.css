@@ -1,0 +1,20 @@
+.customer-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.customer-details-name {
+    font-size: 1.5em;
+}
+
+.customer-details-title,
+.customer-details-address {
+    font-size: 1em;
+}
+
+.customer-details-message {
+    font-size: 1.5em;
+    color: #2e2c2c;
+    text-align: center;
+    font-weight: 700;
+}

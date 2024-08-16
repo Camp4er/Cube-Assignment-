@@ -1,0 +1,25 @@
+.outer-border {
+    margin: 0;
+    padding-top: 12px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.outer-border h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer {
+    border-radius: 40px;
+    border: 40px solid rgb(189, 187, 187);;
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    width: 80%;
+}
+
+

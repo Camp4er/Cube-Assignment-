@@ -1,0 +1,5 @@
+.customer-list {
+    border-right: 1px solid #ccc;
+    height: 100vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,34 @@
+.customer-card {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.2s ease;
+    width: 450px;
+    overflow: hidden;
+}
+
+.customer-card:hover {
+    transform: scale(1.02);
+}
+
+.customer-card:active {
+    transform: scale(0.98);
+}
+
+.customer-card.selected {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.customer-card-name {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.customer-card-title {
+    font-size: 1em;
+    color: #555;
+}
